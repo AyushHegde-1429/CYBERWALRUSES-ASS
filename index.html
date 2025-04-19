@@ -9,5 +9,31 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
+    <script src='https://cdn.jotfor.ms/s/umd/latest/for-embedded-agent.js'></script>
+    <script>
+      window.addEventListener("DOMContentLoaded", function() {
+        window.AgentInitializer.init({
+          agentRenderURL: "https://agent.jotform.com/01964f13147771a1b075b6e38f615711d80c",
+          rootId: "JotformAgent-01964f13147771a1b075b6e38f615711d80c",
+          formID: "01964f13147771a1b075b6e38f615711d80c",
+          queryParams: ["skipWelcome=1", "maximizable=1"],
+          domain: "https://www.jotform.com",
+          isDraggable: false,
+          background: "linear-gradient(180deg, #C8CEED 0%, #EEF2FF 100%)",
+          buttonBackgroundColor: "#0A1551",
+          buttonIconColor: "#FFF",
+          variant: false,
+          customizations: {
+            "greeting": "Yes",
+            "greetingMessage": "Hi! How can I assist you?",
+            "openByDefault": "No",
+            "pulse": "Yes",
+            "position": "right",
+            "autoOpenChatIn": "0"
+          },
+          isVoice: false,
+        });
+      });
+    </script>
   </body>
 </html>
