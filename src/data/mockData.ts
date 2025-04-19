@@ -318,21 +318,21 @@ export const teamMembers = [
   {
     id: '1',
     name: 'Sonal',
-    role: 'Chief Data Scientist',
+    role: 'Student',
     bio: 'PhD in Statistical Learning with 10+ years of experience developing quantitative trading models at top hedge funds. Specializes in machine learning and statistical arbitrage.',
     avatar: 'https://randomuser.me/api/portraits/women/68.jpg'
   },
   {
     id: '2',
     name: 'Ayush',
-    role: 'Algorithm Engineer',
+    role: 'Student',
     bio: 'Former quant at Goldman Sachs with expertise in designing high-frequency trading systems and optimization algorithms. Masters in Financial Engineering from MIT.',
     avatar: 'https://randomuser.me/api/portraits/men/45.jpg'
   },
   {
     id: '3',
     name: 'Sakshat',
-    role: 'Financial Analyst',
+    role: 'Student',
     bio: 'CFA charterholder with extensive background in portfolio management and risk modeling. Previously led research at a leading quantitative investment firm.',
     avatar: 'https://randomuser.me/api/portraits/men/22.jpg'
   }

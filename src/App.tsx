@@ -6,6 +6,7 @@ import Portfolio from './pages/Portfolio';
 import Strategies from './pages/Strategies';
 import About from './pages/About';
 import Profile from './pages/Profile';
+import WalletOperations from './components/wallet/WalletOperations';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/strategies" element={<Strategies />} />
         <Route path="/about" element={<About />} />
         <Route path="/profile" element={<Profile />} />
+        <Route path="/wallet" element={<WalletOperations />} />
       </Routes>
     </Router>
   );
